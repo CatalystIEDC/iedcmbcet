@@ -167,6 +167,82 @@ a {
 	font-weight: 500;
 }
 
+#latest-events{
+	width: 100%;
+	background-image: url("./images/latest_events_bg.jpeg");
+	background-size: contain;
+	height: 100vh;
+}
+
+#latest-events .title {
+	font-size: 6rem;
+	margin: 2rem 0 4rem 0;
+	font-weight: 700;
+	font-family: "Raleway", sans-serif;
+	background: linear-gradient(90deg, #8081D6 9.01%, #90E7E4 25.26%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+
+.latest-events{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.latest-event{
+	display: flex;
+	flex-direction: row;
+	border: 2px solid #212121;
+	border-radius: 11px;
+    width: 600.18px;
+    justify-content: center;
+	align-items: center;
+	padding: 31px;
+}
+
+.latest-event-image{
+	width: 180.41px;
+}
+
+.latest-event-desc{
+	color: white;
+	width: 309px;
+	font-size: 15px;
+	padding-left: 20px;
+	margin-top: -50px;
+}
+
+.latest-event-heading{
+	font-size: 25px;
+	font-weight: 900;
+	padding-bottom: 10px;
+}
+
+.registernow{
+	margin-top: 10px;
+	box-sizing: border-box;
+
+	position: absolute;
+	font-weight: 700;
+	font-size: 15px;
+	background: #000000;
+	border-radius: 5.08312px;
+	border: 1.45px solid #7f7fd5;
+
+	background: linear-gradient(90deg, #8081D6 0.01%, #90E7E4 96.26%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	padding: 10px;
+
+}
+
+
+
 #about-us {
 	width: 100%;
 	background-image: url("./images/radial.png");
@@ -176,6 +252,7 @@ a {
 	flex-wrap: wrap;
 	align-items: flex-start;
 	justify-content: center;
+	margin-top: -150px;
 }
 
 #about-us .title {
@@ -545,7 +622,30 @@ footer i:hover {
 		object-fit: contain;
 		background-image: url("./images/gifBg.gif");
 	}
-
+   
+	#latest-events .title {
+		font-size: 4rem;
+	
+	}
+	
+	
+	.latest-event-image{
+		width: 200.41px;
+	}
+	
+	.latest-event-desc{
+		color: white;
+		width: 309px;
+		font-size: 12px;
+	}
+	
+	.latest-event-heading{
+		font-size: 18px;
+		
+	}
+	
+	
+	
 	#about-us {
 		width: 100%;
 		background-image: url("./images/radial.png");
@@ -635,4 +735,55 @@ footer i:hover {
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
+}
+
+
+@media only screen and (max-width: 568px) {
+	#latest-events{
+		width: 100%;
+		
+	}
+	
+	#latest-events .title {
+		font-size: 4rem;
+	}
+	
+	.latest-events{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+	}
+	
+	.latest-event{
+		display: flex;
+		flex-direction: column;
+		border-radius: 11px;
+		justify-content: center;
+		align-items: center;
+		border: none;
+	}
+	
+	.latest-event-image{
+		width: 200.41px;
+	}
+	
+	.latest-event-desc{
+		color: white;
+		width: 309px;
+		font-size: 12px;
+		padding-left: 20px;
+		margin-top: 30px;
+	}
+	
+	.latest-event-heading{
+		font-size: 18px;
+		font-weight: 900;
+		padding-bottom: 10px;
+	}
+
+	#about-us{
+		margin-top: 0px;
+	}
+	
 }
