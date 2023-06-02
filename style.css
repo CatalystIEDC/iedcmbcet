@@ -434,6 +434,13 @@ a {
 	flex-wrap: wrap;
 }
 
+#events-page .event-row .event{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
 #events-page .event img {
 	height: 28rem;
 	width: 25rem;
@@ -445,6 +452,7 @@ a {
 	font-weight: 600;
 	margin: 10px 0 20px 0;
 	color: white;
+	
 }
 
 #events-page .event h5 {
