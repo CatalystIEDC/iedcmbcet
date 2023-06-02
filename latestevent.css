@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+
+#latest-events{
+	width: 100%;
+	background-image: url("./images/latest_events_bg.jpeg");
+	background-size: contain;
+	height: 100vh;
+    padding-bottom: 10%;
+}
+
+#latest-events .title {
+	font-size: 3rem;
+	margin: 0rem 0 4rem 0;
+	font-weight: 800;
+	font-family: "Raleway", sans-serif;
+	background: linear-gradient(90deg, #8081D6 9.01%, #90E7E4 25.26%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+    padding: 50px 50px 0;
+}
+
+.latest-events{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.latest-event{
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+	align-items: center;
+	
+    gap:100px
+}
+
+.latest-event-image{
+	width: 330px;
+}
+
+
+
+.latest-event-desc{
+	color: white;
+    font-size: 14px;
+	width: 309px;
+	padding-left: 20px;
+	margin-top: -110px;
+}
+
+
+
+.latest-event-heading{
+	font-size: 40px;
+	font-weight: 900;
+  
+}
+
+.registernow{
+	margin-top: 10px;
+	box-sizing: border-box;
+
+	position: absolute;
+	font-weight: 700;
+	font-size: 15px;
+	background: #000000;
+	border-radius: 5.08312px;
+	border: 1.45px solid #7f7fd5;
+
+	background: linear-gradient(90deg, #8081D6 0.01%, #90E7E4 96.26%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	padding: 10px;
+
+}
+
+.registernowbtn{
+   cursor: pointer;;
+}
+
+
