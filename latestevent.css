@@ -2,7 +2,96 @@ body{
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.header {
+	border-bottom: none;
+	background-color: black;
+	background-image: url("./images/bg.png");
+	color: white;
+	height: 12rem;
+	padding: 1.5rem 6rem;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 1.5rem;
+}
+
+.hamburger {
+	display: none;
+}
+
+.bar {
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin:  0;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	background-color: white;
+}
+
+.nav-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
     
+}
+
+.nav-item {
+	margin-left: 5rem;
+   
+}
+
+.nav-menu {
+     list-style-type: none ;
+}
+
+.nav-link {
+	font-size: 2rem;
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-weight: 800;
+    background: #7f7fd5;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #91eae4, #86a8e7, #7f7fd5);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #91eae4, #86a8e7, #7f7fd5);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.nav-link:hover {
+	/* color: #4CD4E0; */
+	font-weight: 800;
+	background: #7f7fd5;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #91eae4, #86a8e7, #7f7fd5);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #91eae4, #86a8e7, #7f7fd5);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.nav-logo img {
+	width: 5rem;
+	height: 5rem;
+	object-fit: contain;
+	background-size: cover;
+}
+
+.nav-logo span {
+	font-size: 1.6rem;
+	text-align: center;
 }
 
 #latest-events{
@@ -11,6 +100,7 @@ body{
 	background-size: contain;
 	height: 100vh;
     padding-bottom: 10%;
+    margin-top: -100px;
 }
 
 #latest-events .title {
@@ -50,11 +140,20 @@ body{
 .latest-event-desc{
 	color: white;
     font-size: 14px;
-	width: 309px;
+	width: 420px;
 	padding-left: 20px;
 	margin-top: -110px;
 }
 
+.latest-event-para{
+    
+line-height: 22px;
+/* or 93% */
+
+
+color: #FFFFFF;
+
+}
 
 
 .latest-event-heading{
