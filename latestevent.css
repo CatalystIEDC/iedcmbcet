@@ -191,3 +191,130 @@ color: #FFFFFF;
 }
 
 
+@media only screen and (max-width: 768px) {
+    html {
+		background-color: black;
+        margin: 0;
+        padding: 0;
+	}
+
+	.navbar-padding{
+		padding: 10px 0;
+	}
+
+	.nav-menu {
+		position: fixed;
+		left: -100%;
+		top: 10rem;
+		bottom: 0;
+		z-index: 100;
+		background-image: url(./images/radial.png);
+		flex-direction: column;
+		justify-content: flex-start;
+		background-color: black;
+		width: 100%;
+		color: white;
+		padding: 20px 65px;
+		align-items: flex-start;
+		text-align: start;
+		transition: 0.3s;
+		box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+	}
+
+	.nav-menu.active {
+		left: 0;
+	}
+
+	.nav-item {
+		margin: 2.5rem 0;
+	}
+
+	.hamburger {
+		display: block;
+		cursor: pointer;
+		color: white;
+	}
+
+	.hamburger.active .bar:nth-child(2) {
+		opacity: 0;
+	}
+
+	.hamburger.active .bar:nth-child(1) {
+		transform: translateY(8px) rotate(45deg);
+		background-color: #7f7fd5;
+	}
+
+	.hamburger.active .bar:nth-child(3) {
+		transform: translateY(-8px) rotate(-45deg);
+		background-color: #7f7fd5;
+	}
+
+	.global-padding {
+		padding: 0 40px;
+	}
+
+	.global-button {
+		min-width: 10rem;
+		background-color: black;
+		padding: 15px;
+		text-align: center;
+		border: 3px solid #91eae4;
+		font-size: 1.5rem;
+		font-weight: 700;
+		border-radius: 10px;
+		transition: 0.4s ease;
+		color: #7f7fd5;
+	}
+
+	.global-button:hover {
+		min-width: 10rem;
+		color: black;
+		background-color: white;
+		padding: 15px;
+		text-align: center;
+		border: 3px solid white;
+		font-size: 1.5rem;
+		font-weight: 700;
+		border-radius: 10px;
+	}
+
+	.nav-logo img {
+		width: 4rem;
+		height: 4rem;
+		object-fit: contain;
+		background-size: contain;
+	}
+
+	.nav-logo span {
+		font-size: 1.2rem;
+		text-align: center;
+	}
+    .header{
+        display: none;
+    }
+
+    .latest-event{
+        
+        flex-direction: column;
+        
+    }
+
+     #latest-events{
+        margin-bottom: 300px;
+     }
+
+    #latest-events .title{
+        margin-top: 100px;
+        font-size: 1.6rem;
+        font-weight: 800;
+       
+    }
+
+
+    .latest-event-desc{
+        padding: 40px;
+    }
+
+   
+}
+
