@@ -255,7 +255,7 @@ a {
 	flex-wrap: wrap;
 	align-items: flex-start;
 	justify-content: center;
-	margin-top: -100px;
+	
 }
 
 #about-us .title {
@@ -634,6 +634,10 @@ footer i:hover {
 		background-image: url("./images/gifBg.gif");
 	}
    
+    #latest-events{
+		height: 70vh;
+	}
+
 	#latest-events .title {
 		font-size: 4rem;
 	
