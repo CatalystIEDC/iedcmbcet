@@ -103,7 +103,7 @@ body{
 	width: 100%;
 	background-image: url("./images/latest_events_bg.jpeg");
 	background-size: contain;
-	height: 100vh;
+	height: 110vh;
     padding-bottom: 10%;
     margin-top: -100px;
 }
@@ -315,6 +315,10 @@ color: #FFFFFF;
         padding: 40px;
     }
 
+
+	.registernow{
+		margin-top: 30px;
+	}
    
 }
 
