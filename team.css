@@ -73,6 +73,7 @@ html {
 	background-color: black;
 	color: white;
 	background-image: url("./images/radial.png");
+	position: relative;
 }
 
 #nodal-officer h2 {
@@ -80,12 +81,22 @@ html {
 	color: white;
 	margin: 10px 0 40px 0;
 }
+ .nodal-img-container{
+	
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	position: relative;
 
-#nodal-officer img {
 	height: 20rem;
-	width: 20rem;
-	background-size: contain;
+}
+#nodal-officer img {
+	height: 21rem;
+	width: 21rem;
 	border-radius: 10px;
+	display: block;
+	margin-left: auto;
+	object-fit: cover;
 }
 
 #nodal-officer .container {
