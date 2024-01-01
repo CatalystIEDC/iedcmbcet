@@ -140,8 +140,15 @@ html {
 #core-team .core-member-container img {
 	width: 15rem;
 	height: 15rem;
-	margin: 5px 3px 15px 3px;
 	border-radius: 5px;
+	
+}
+#core-team .core-member-container img:hover {
+	width: 15rem;
+	height: 15rem;
+	border-radius: 5px;
+	transform: scale(1.1);
+	transition: 0.2s ease-in;
 }
 
 #core-team .core-member-container h3 {
@@ -173,10 +180,16 @@ html {
 	transition: 0.2s ease-in;
 }
 
+.core-member-container .team-img{
+	object-fit: cover;
+	object-position: center;
+}
+
 #subcore-team {
 	width: 100%;
 	color: white;
 	background-image: url("./images/radial.png");
+
 }
 
 #subcore-team h2 {
